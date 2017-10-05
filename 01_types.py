@@ -10,3 +10,10 @@ print(c)
 print(type(a))
 print(type(b))
 print(type(c))
+
+v =0.1 + 0.1 
+print(v-0.2)
+#floating point arithmetic
+v =0.1 + 0.1 + 0.1
+print(v-0.3)
+
