@@ -1,0 +1,3 @@
+# pythonf
+
+Python fundamentals
