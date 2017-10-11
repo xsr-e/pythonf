@@ -18,5 +18,6 @@ def get_avg_without_outliers(a):
     return sum_of/len_of
 
 
+
 print(get_avg(prices))
 print(get_avg_without_outliers(prices))
