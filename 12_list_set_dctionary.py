@@ -7,3 +7,8 @@ print (set_int)
 dict_int = {1:'A',2:'B'}
 print(dict_int)
 print(dict_int[2])
+
+n=dict_int.get(100)
+print(n)
+
+dict_int[100]
