@@ -17,3 +17,18 @@ n=dict_int.get(100)
 print(n)
 
 # dict_int[100] # KeyError 100
+
+#dictionary from list
+dict_from_list = dict.fromkeys(range(4),range(5))
+print dict_from_list
+
+#dictionary from set
+dict_from_set = dict.fromkeys(set_int,0)
+print dict_from_set
+
+
+codes = {}
+for n in range(65,123):
+    codes[n]=chr(n)
+
+print codes
