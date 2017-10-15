@@ -8,3 +8,4 @@ date_iso = d_today.isoformat()
 
 
 print((d_today,dt_now,date_str,date_iso))
+
