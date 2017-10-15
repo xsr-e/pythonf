@@ -1,10 +1,10 @@
-f = open('tmp.py', 'r')
-data = f.read()
-print data
-f.close()
+from datetime import date, datetime, time, tzinfo
 
-with open('/Users/usr/git/pythonf/log_data.txt','w') as log:
-    for i in range(10):
-        log.write("Log line no:{}\r".format(i))
+d = date.today()
+dt = datetime.now()
+#t = time.isoformat(d.time)
+e =d.strftime("%Y-%m-%d")
 
 
+s = (d,e,d.isoformat(),dt)
+print(s)
